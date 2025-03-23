@@ -14,7 +14,7 @@ require('mason-lspconfig').setup({
             require('lspconfig').lua_ls.setup(lua_opts)
         end,
     },
-    ensure_installed = {'rust_analyzer', 'ts_ls', 'html', 'eslint', pylsp = {
+    ensure_installed = {pylsp = {
         pylsp = {
             plugins = {
                 pycodestyle = {
